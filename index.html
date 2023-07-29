@@ -31,6 +31,7 @@
             <li><a href="#two">skills</a></li>
             <li><a href="#one">Projects</a></li>
             <li><a href="#three">Get in touch</a></li>
+            <li><a href="pdf.html">Resume</a></li>
           </ul>
         </nav>
       </div>
@@ -42,19 +43,48 @@
       <section id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">
           <h1>James Hernandez</h1>
-          <p>
-            Aspiring Software Engineer | Enthusiastic Learner | Building a
-            Future in Tech
+          <div>
+            <div>
+              <div id="intro-dropdowns-1">
+                Aspiring Software Engineer | Enthusiastic Learner | Building a
+                Future in Tech
+              </div>
+              <div id="intro-dropdowns-1-content">
+                Welcome to my portfolio! I'm James, a passionate and driven
+                induvidual with a great interest in software engineering. As a
+                junior in this field, my journey is only beginning, but the
+                excitement and complete dedication I have towards coding are
+                immeasurable.
+              </div>
+              <div id="intro-dropdowns-2">
+                A Journey of Exploration into the Field:
+              </div>
+              <div id="intro-dropdowns-2-content" class="nonexpanded">
+                Since finding out about the field of technology, specifically
+                around software engineering, I have been eager to uncover new
+                ways to code, problem-solve and find innovative solutions that
+                will turn me into a valuable hire to any company. While I may
+                not have extensive professional experience as yet, I have
+                completely immersed myself in learning, tackling exciting
+                personal projects and overcoming challenges that have helped to
+                improve my skills greatly.
+              </div>
+              <div id="intro-dropdowns-3">Collaboration and Community:</div>
+              <div id="intro-dropdowns-3-content" class="nonexpanded">
+                I value the power of collaboration and the synergy that arises
+                when diverse minds come together to create solutions. During the
+                time I have spent learning, I've found out how valuable the
+                opinions of others can be - and seek to learn from those around
+                me. I actively engage with other coders, hoping to gain new
+                knowledge that I can implement to better my work, as well as
+                help others better theirs.
+              </div>
+            </div>
             <br />
             <!-- Im a software developer, located in New York City.
             <a href="http://html5up.net">HTML5 UP</a><br /> -->
-            Welcome to my portfolio! I'm James, a passionate and driven
-            induvidual with a great interest in software engineering. As a
-            junior in this field, my journey is only beginning, but the
-            excitement and complete dedication I have towards coding are
-            immeasurable.
             <!-- <a href="http://html5up.net/license">Creative Commons</a>. -->
-          </p>
+          </div>
           <ul class="actions">
             <li>
               <a href="#two" class="button scrolly">
@@ -487,5 +517,22 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      document.getElementById("intro-dropdowns-1").onclick = function () {
+        document
+          .getElementById("intro-dropdowns-1-content")
+          .classList.toggle("nonexpanded");
+      };
+      document.getElementById("intro-dropdowns-2").onclick = function () {
+        document
+          .getElementById("intro-dropdowns-2-content")
+          .classList.toggle("nonexpanded");
+      };
+      document.getElementById("intro-dropdowns-3").onclick = function () {
+        document
+          .getElementById("intro-dropdowns-3-content")
+          .classList.toggle("nonexpanded");
+      };
+    </script>
   </body>
 </html>
