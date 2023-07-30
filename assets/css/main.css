@@ -3997,7 +3997,10 @@ body.is-preload #sidebar nav ul li {
 
 #intro-dropdowns-1,
 #intro-dropdowns-2,
-#intro-dropdowns-3 {
+#intro-dropdowns-3,
+#intro-dropdowns-4,
+#intro-dropdowns-5,
+#intro-dropdowns-6 {
   font-size: 22px;
   color: rgba(255, 255, 255, 0.75);
   margin-top: 10px;
@@ -4005,7 +4008,10 @@ body.is-preload #sidebar nav ul li {
 
 #intro-dropdowns-1:hover,
 #intro-dropdowns-2:hover,
-#intro-dropdowns-3:hover {
+#intro-dropdowns-3:hover,
+#intro-dropdowns-4:hover,
+#intro-dropdowns-5:hover,
+#intro-dropdowns-6:hover {
   color: rgba(255, 255, 255, 0.85);
 }
 
@@ -4015,10 +4021,23 @@ body.is-preload #sidebar nav ul li {
   overflow-x: hidden;
 }
 
-#intro-dropdowns-2-content,
+#intro-dropdowns-5-content,
 #intro-dropdowns-3-content {
+  height: 100px;
+  transition: height 700ms;
+  overflow-x: hidden;
+}
+
+#intro-dropdowns-2-content,
+#intro-dropdowns-6-content {
   height: 130px;
   transition: height 900ms;
+  overflow-x: hidden;
+}
+
+#intro-dropdowns-4-content {
+  height: 185px;
+  transition: height 1000ms;
   overflow-x: hidden;
 }
 
@@ -4028,6 +4047,14 @@ body.is-preload #sidebar nav ul li {
 
 #intro-dropdowns-1-content.nonexpanded,
 #intro-dropdowns-2-content.nonexpanded,
-#intro-dropdowns-3-content.nonexpanded {
+#intro-dropdowns-3-content.nonexpanded,
+#intro-dropdowns-4-content.nonexpanded,
+#intro-dropdowns-5-content.nonexpanded,
+#intro-dropdowns-6-content.nonexpanded {
   height: 0px;
+}
+
+.face-pic {
+  width: 200px;
+  height: 200px;
 }

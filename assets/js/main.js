@@ -158,14 +158,56 @@
   $(document).ready(function () {
     $("#intro-dropdowns-1").click(function () {
       $("#intro-dropdowns-1-content").toggleClass("nonexpanded");
+      $("#intro-dropdowns-2-content").addClass("nonexpanded");
+      $("#intro-dropdowns-3-content").addClass("nonexpanded");
+      $("#intro-dropdowns-4-content").addClass("nonexpanded");
+      $("#intro-dropdowns-5-content").addClass("nonexpanded");
+      $("#intro-dropdowns-6-content").addClass("nonexpanded");
     });
 
     $("#intro-dropdowns-2").click(function () {
       $("#intro-dropdowns-2-content").toggleClass("nonexpanded");
+      $("#intro-dropdowns-1-content").addClass("nonexpanded");
+      $("#intro-dropdowns-3-content").addClass("nonexpanded");
+      $("#intro-dropdowns-4-content").addClass("nonexpanded");
+      $("#intro-dropdowns-5-content").addClass("nonexpanded");
+      $("#intro-dropdowns-6-content").addClass("nonexpanded");
     });
 
     $("#intro-dropdowns-3").click(function () {
       $("#intro-dropdowns-3-content").toggleClass("nonexpanded");
+      $("#intro-dropdowns-2-content").addClass("nonexpanded");
+      $("#intro-dropdowns-1-content").addClass("nonexpanded");
+      $("#intro-dropdowns-4-content").addClass("nonexpanded");
+      $("#intro-dropdowns-5-content").addClass("nonexpanded");
+      $("#intro-dropdowns-6-content").addClass("nonexpanded");
+    });
+
+    $("#intro-dropdowns-4").click(function () {
+      $("#intro-dropdowns-4-content").toggleClass("nonexpanded");
+      $("#intro-dropdowns-2-content").addClass("nonexpanded");
+      $("#intro-dropdowns-3-content").addClass("nonexpanded");
+      $("#intro-dropdowns-1-content").addClass("nonexpanded");
+      $("#intro-dropdowns-5-content").addClass("nonexpanded");
+      $("#intro-dropdowns-6-content").addClass("nonexpanded");
+    });
+
+    $("#intro-dropdowns-5").click(function () {
+      $("#intro-dropdowns-5-content").toggleClass("nonexpanded");
+      $("#intro-dropdowns-2-content").addClass("nonexpanded");
+      $("#intro-dropdowns-3-content").addClass("nonexpanded");
+      $("#intro-dropdowns-4-content").addClass("nonexpanded");
+      $("#intro-dropdowns-1-content").addClass("nonexpanded");
+      $("#intro-dropdowns-6-content").addClass("nonexpanded");
+    });
+
+    $("#intro-dropdowns-6").click(function () {
+      $("#intro-dropdowns-6-content").toggleClass("nonexpanded");
+      $("#intro-dropdowns-2-content").addClass("nonexpanded");
+      $("#intro-dropdowns-3-content").addClass("nonexpanded");
+      $("#intro-dropdowns-4-content").addClass("nonexpanded");
+      $("#intro-dropdowns-5-content").addClass("nonexpanded");
+      $("#intro-dropdowns-1-content").addClass("nonexpanded");
     });
   });
 })(jQuery);
