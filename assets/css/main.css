@@ -4013,6 +4013,7 @@ body.is-preload #sidebar nav ul li {
 #intro-dropdowns-5:hover,
 #intro-dropdowns-6:hover {
   color: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
 }
 
 #intro-dropdowns-1-content {
