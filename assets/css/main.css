@@ -4017,16 +4017,18 @@ body.is-preload #sidebar nav ul li {
 }
 
 #intro-dropdowns-1-content {
-  height: 70px;
+  height: 90px;
   transition: height 600ms;
   overflow-x: hidden;
+  margin-left: 20px;
 }
 
 #intro-dropdowns-5-content,
 #intro-dropdowns-3-content {
-  height: 100px;
+  height: 120px;
   transition: height 700ms;
   overflow-x: hidden;
+  margin-left: 20px;
 }
 
 #intro-dropdowns-2-content,
@@ -4034,12 +4036,14 @@ body.is-preload #sidebar nav ul li {
   height: 130px;
   transition: height 900ms;
   overflow-x: hidden;
+  margin-left: 20px;
 }
 
 #intro-dropdowns-4-content {
-  height: 185px;
+  height: 250px;
   transition: height 1000ms;
   overflow-x: hidden;
+  margin-left: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -4059,3 +4063,34 @@ body.is-preload #sidebar nav ul li {
   width: 200px;
   height: 200px;
 }
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header > a {
+  font-size: 35px;
+}
+
+.intro-dropdowns-indicators {
+  color: transparent;
+}
+
+#intro-dropdowns-1:hover .intro-dropdowns-indicators,
+#intro-dropdowns-2:hover .intro-dropdowns-indicators,
+#intro-dropdowns-3:hover .intro-dropdowns-indicators,
+#intro-dropdowns-4:hover .intro-dropdowns-indicators,
+#intro-dropdowns-5:hover .intro-dropdowns-indicators,
+#intro-dropdowns-6:hover .intro-dropdowns-indicators {
+  color: inherit;
+}
+
+.intro-dropdowns-indicators.light {
+  color: inherit;
+}
+
+/* #intro-dropdowns-1:not(.nonexpanded) .intro-dropdowns-indicators {
+  color: inherit;
+} */
