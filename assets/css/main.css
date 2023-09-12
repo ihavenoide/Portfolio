@@ -3830,7 +3830,7 @@ body.is-ie #sidebar > .inner {
   border: 0;
   color: rgba(255, 255, 255, 0.35);
   display: block;
-  font-size: 0.6em;
+  font-size: 0.65em;
   font-weight: bold;
   letter-spacing: 0.25em;
   line-height: 1.75;
@@ -4012,7 +4012,7 @@ body.is-preload #sidebar nav ul li {
 #intro-dropdowns-4:hover,
 #intro-dropdowns-5:hover,
 #intro-dropdowns-6:hover {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
 }
 
@@ -4094,3 +4094,33 @@ body.is-preload #sidebar nav ul li {
 /* #intro-dropdowns-1:not(.nonexpanded) .intro-dropdowns-indicators {
   color: inherit;
 } */
+
+.dropdown-expandar {
+  margin-right: 5px;
+}
+
+.jameshernandez {
+  margin-bottom: 0px;
+}
+
+.software-engineer {
+  font-size: 25px;
+  color: white;
+}
+
+.fa-angle-right.expanded {
+  rotate: 90deg;
+}
+
+.intro-main-title-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+#features-react {
+  color: #ffffff;
+}
+
+#features-react:hover {
+  color: rgb(2, 237, 237);
+}
