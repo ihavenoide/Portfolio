@@ -145,6 +145,12 @@ mark {
   color: inherit;
 }
 
+.intro-main-title-wrapper {
+  display: flex;
+  align-items: flex-end;
+  max-width: 100%;
+}
+
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -4076,12 +4082,6 @@ body.is-preload #sidebar nav ul li {
 
 .intro-dropdowns-indicators {
   color: transparent;
-}
-
-.intro-main-title-wrapper {
-  display: flex;
-  align-items: flex-end;
-  max-width: 100%;
 }
 
 #intro-dropdowns-1:hover .intro-dropdowns-indicators,
