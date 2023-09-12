@@ -4104,7 +4104,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 .software-engineer {
-  font-size: 25px;
+  font-size: 24px;
   color: white;
 }
 
@@ -4115,6 +4115,7 @@ body.is-preload #sidebar nav ul li {
 .intro-main-title-wrapper {
   display: flex;
   align-items: flex-end;
+  max-width: 100%;
 }
 
 #features-react {
