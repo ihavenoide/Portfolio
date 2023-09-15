@@ -4118,6 +4118,81 @@ body.is-preload #sidebar nav ul li {
   color: #ffffff;
 }
 
-#features-react:hover {
+/* #features-react:hover {
   color: rgb(2, 237, 237);
+} */
+
+#features-redux {
+  color: #ffffff;
+}
+
+/* #features-redux:hover {
+  fill: rgb(99, 37, 174);
+} */
+
+#features-javascript {
+  color: #ffffff;
+}
+
+/* #features-javascript:hover {
+  color: yellow;
+} */
+
+#features-html {
+  color: #ffffff;
+}
+
+/* #features-html:hover {
+  color: rgb(255, 136, 0);
+} */
+
+#features-css {
+  color: #ffffff;
+}
+
+/* #features-css:hover {
+  color: rgb(64, 64, 244);
+} */
+
+/* #features-sql:hover .features-sql-a {
+  fill: rgb(179, 22, 22);
+} */
+
+/* #features-postgre:hover {
+  fill: rgb(28, 111, 184);
+} */
+
+#features-nodejs {
+  color: #ffffff;
+}
+
+/* #features-nodejs:hover {
+  color: rgb(163, 247, 36);
+} */
+
+#features-git {
+  color: #ffffff;
+}
+
+/* #features-git:hover {
+  color: orangered;
+} */
+
+.project-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+}
+
+.project-title-logo-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.project-logo-goaly {
+  border: 2px #ffffff solid;
 }
