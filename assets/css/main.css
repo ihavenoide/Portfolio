@@ -3834,7 +3834,7 @@ body.is-ie #sidebar > .inner {
   -ms-transition: color 0.2s ease;
   transition: color 0.2s ease;
   border: 0;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.45);
   display: block;
   font-size: 0.65em;
   font-weight: bold;
@@ -3875,7 +3875,7 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:hover {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.65);
 }
 
 #sidebar nav a.active {
@@ -4182,7 +4182,7 @@ body.is-preload #sidebar nav ul li {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  position: absolute;
+  /* position: absolute; */
   top: -50px;
 }
 
@@ -4191,6 +4191,10 @@ body.is-preload #sidebar nav ul li {
   align-items: flex-start;
   gap: 10px;
   position: relative;
+}
+
+.project-title-logo-wrapper > h2 {
+  margin: 0;
 }
 
 .project-logo-goaly {
