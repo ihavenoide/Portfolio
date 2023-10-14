@@ -4037,9 +4037,15 @@ body.is-preload #sidebar nav ul li {
   margin-left: 20px;
 }
 
-#intro-dropdowns-2-content,
-#intro-dropdowns-6-content {
+#intro-dropdowns-2-content {
   height: 130px;
+  transition: height 900ms;
+  overflow-x: hidden;
+  margin-left: 20px;
+}
+
+#intro-dropdowns-6-content {
+  height: 250px;
   transition: height 900ms;
   overflow-x: hidden;
   margin-left: 20px;
