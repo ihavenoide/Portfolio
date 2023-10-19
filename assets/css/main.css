@@ -4038,8 +4038,8 @@ body.is-preload #sidebar nav ul li {
 }
 
 #intro-dropdowns-6-content {
-  height: 250px;
-  transition: height 1000ms;
+  height: 130px;
+  transition: height 500ms;
   overflow-x: hidden;
   margin-left: 20px;
 }
