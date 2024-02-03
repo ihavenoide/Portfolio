@@ -2117,6 +2117,13 @@ button:hover:active:after,
   text-align: center;
 }
 
+@media (max-width: 500px) {
+  .features section {
+    padding: 10px;
+    width: 50%;
+  }
+}
+
 .features section:nth-child(-n + 2) {
   border-top-width: 0;
 }
@@ -2297,7 +2304,8 @@ button:hover:active:after,
   .features section {
     border-top-width: 1px !important;
     border-left-width: 0 !important;
-    width: 100%;
+    width: 33%;
+    display: inline-block;
   }
 
   .features section:first-child {
