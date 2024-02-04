@@ -151,6 +151,15 @@ mark {
   max-width: 100%;
 }
 
+@media (max-width: 768px) {
+  .intro-main-title-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 100%;
+  }
+}
+
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -2297,10 +2306,6 @@ button:hover:active:after,
 }
 
 @media screen and (max-width: 980px) {
-  .features {
-    display: block;
-  }
-
   .features section {
     border-top-width: 1px !important;
     border-left-width: 0 !important;
@@ -2315,17 +2320,30 @@ button:hover:active:after,
 
 @media screen and (max-width: 736px) {
   .features section {
+    border-top-width: 1px !important;
+    border-left-width: 0 !important;
+    width: 50%;
+    display: inline-block;
+  }
+  /* .features section {
     padding: 2.5em 1.5em 0.1em 5.5em;
   }
+
 
   .features section .icon {
     left: 1.5em;
     top: 2em;
-  }
+  } */
 }
 
 @media screen and (max-width: 480px) {
   .features section {
+    border-top-width: 1px !important;
+    border-left-width: 0 !important;
+    width: 50%;
+    display: inline-block;
+  }
+  /* .features section {
     padding: 2em 1.5em 0.1em 1.5em;
   }
 
@@ -2333,7 +2351,7 @@ button:hover:active:after,
     left: 0;
     position: relative;
     top: 0;
-  }
+  } */
 }
 
 /* Form */
