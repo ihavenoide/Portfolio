@@ -2184,6 +2184,10 @@ button:hover:active:after,
   transition-delay: 1s;
 }
 
+.CSS-svg {
+  padding: 4px 4px;
+}
+
 .skills-title:has(+ .icon:hover) {
   -moz-transition-delay: 0.45s !important;
   -webkit-transition-delay: 0.45s !important;
@@ -2201,6 +2205,14 @@ button:hover:active:after,
 
 .skills-Redux:has(+ .icon:hover) {
   color: #764abc;
+}
+
+.skills-HTML:has(+ .icon:hover) {
+  color: #e44d26;
+}
+
+.skills-CSS:has(+ .icon:hover) {
+  color: #264de4;
 }
 
 .features section .icon-colored {
@@ -2261,14 +2273,18 @@ button:hover:active:after,
   transition-delay: 0.6s;
 }
 
-.features section:nth-child(5) .icon {
+.features section:nth-child(5) .icon,
+.features section:nth-child(4) .icon-colored-HTML,
+.skills-HTML {
   -moz-transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
   -ms-transition-delay: 0.75s;
   transition-delay: 0.75s;
 }
 
-.features section:nth-child(6) .icon {
+.features section:nth-child(6) .icon,
+.features section:nth-child(4) .icon-colored-CSS,
+.skills-CSS {
   -moz-transition-delay: 0.9s;
   -webkit-transition-delay: 0.9s;
   -ms-transition-delay: 0.9s;
