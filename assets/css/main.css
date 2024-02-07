@@ -150,6 +150,16 @@ mark {
   align-items: flex-end;
   max-width: 100%;
 }
+.intro-main-title-wrapper > h2 {
+  background-image: linear-gradient(
+    90.4deg,
+    rgb(248, 52, 246) 0.6%,
+    rgb(152, 38, 252) 90%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
 @media (max-width: 768px) {
   .intro-main-title-wrapper {
@@ -2126,6 +2136,12 @@ button:hover:active:after,
   text-align: center;
 }
 
+.icon-colored {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
 @media (max-width: 500px) {
   .features section {
     padding: 10px;
@@ -2157,6 +2173,60 @@ button:hover:active:after,
   opacity: 1;
 }
 
+.skills-title {
+  -moz-transition: color 0.5s ease, -moz-transform 0.5s ease;
+  -webkit-transition: color 0.5s ease, -webkit-transform 0.5s ease;
+  -ms-transition: color 0.5s ease, -ms-transform 0.5s ease;
+  transition: color 0.5s ease, transform 0.5s ease;
+  -moz-transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  -ms-transition-delay: 1s;
+  transition-delay: 1s;
+}
+
+.skills-title:has(+ .icon:hover) {
+  -moz-transition-delay: 0.45s !important;
+  -webkit-transition-delay: 0.45s !important;
+  -ms-transition-delay: 0.45s !important;
+  transition-delay: 0.45s !important;
+}
+
+.skills-JavaScript:has(+ .icon:hover) {
+  color: #f7df1e;
+}
+
+.skills-React:has(+ .icon:hover) {
+  color: #61dbfb;
+}
+
+.skills-Redux:has(+ .icon:hover) {
+  color: #764abc;
+}
+
+.features section .icon-colored {
+  -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  -moz-transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  -ms-transition-delay: 1s;
+  transition-delay: 1s;
+  opacity: 0;
+}
+
+.features section .icon:hover .icon-colored {
+  opacity: 1;
+  -moz-transition-delay: 0.45s !important;
+  -webkit-transition-delay: 0.45s !important;
+  -ms-transition-delay: 0.45s !important;
+  transition-delay: 0.45s !important;
+}
+
+.features.inactive section .icon-colored {
+  opacity: 1;
+}
+
 .features section:nth-child(1) .icon {
   -moz-transition-delay: 0.15s;
   -webkit-transition-delay: 0.15s;
@@ -2164,21 +2234,27 @@ button:hover:active:after,
   transition-delay: 0.15s;
 }
 
-.features section:nth-child(2) .icon {
+.features section:nth-child(2) .icon,
+.features section:nth-child(1) .icon-colored-JavaScript,
+.skills-JavaScript {
   -moz-transition-delay: 0.3s;
   -webkit-transition-delay: 0.3s;
   -ms-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
 
-.features section:nth-child(3) .icon {
+.features section:nth-child(3) .icon,
+.features section:nth-child(2) .icon-colored-React,
+.skills-React {
   -moz-transition-delay: 0.45s;
   -webkit-transition-delay: 0.45s;
   -ms-transition-delay: 0.45s;
   transition-delay: 0.45s;
 }
 
-.features section:nth-child(4) .icon {
+.features section:nth-child(4) .icon,
+.features section:nth-child(3) .icon-colored-Redux,
+.skills-Redux {
   -moz-transition-delay: 0.6s;
   -webkit-transition-delay: 0.6s;
   -ms-transition-delay: 0.6s;
@@ -3860,7 +3936,7 @@ body.is-ie #sidebar > .inner {
   -ms-transition: color 0.2s ease;
   transition: color 0.2s ease;
   border: 0;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.55);
   display: block;
   font-size: 0.65em;
   font-weight: bold;
@@ -3901,7 +3977,7 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:hover {
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 #sidebar nav a.active {
