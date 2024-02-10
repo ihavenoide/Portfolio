@@ -170,6 +170,15 @@ mark {
   }
 }
 
+@media (max-width: 768px) {
+  .intro-main-title-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 100%;
+  }
+}
+
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
