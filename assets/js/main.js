@@ -152,6 +152,9 @@
     enter: function () {
       // Activate section.
       $(this).removeClass("inactive");
+      setTimeout(() => {
+        $(this).addClass("active");
+      }, 3000);
     },
   });
 
